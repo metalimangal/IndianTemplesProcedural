@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12e888a81948e3f418fda5f11a3adc0a, type: 3}
+  m_Name: Kolam
+  m_EditorClassIdentifier: 
+  name: Kolam
+  axiom: (-D--D)
+  rules:
+  - symbol: 65
+    replacement: F++FFFF--F--FFFF++F++FFFF--F
+  - symbol: 66
+    replacement: ' F--FFFF++F++FFFF--F--FFFF++F'
+  - symbol: 67
+    replacement: BFA--BFA
+  - symbol: 68
+    replacement: CFC--CFC
+  - symbol: 69
+    replacement: F[+F][-F]
+  iterations: 4
+  angle: 45
+  segmentLength: 0.2
+  height: 5
+  thickness: 0.1
+  carved: 0
+  carveHeightStart: 1
+  carveHeightEnd: 3
+  carveDepth: 0.3
